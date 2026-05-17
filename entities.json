@@ -85,5 +85,20 @@
   {"id": "narrow-gate", "name": "《窄门》", "entity_type": "book", "topic_name": "阿丽莎·信仰·爱冲突·禁欲"},
   {"id": "bloodchild", "name": "《血孩子》", "entity_type": "book", "topic_name": "寄生·共生·权力·身体"},
   {"id": "crime-punishment", "name": "《罪与罚》", "entity_type": "book", "topic_name": "拉夫·个人正义·社会冲突·超人理论"},
-  {"id": "four-seasons-tales", "name": "《四季奇谭》", "entity_type": "book", "topic_name": "斯蒂芬金·恐怖·日常·人性"}
+  {"id": "four-seasons-tales", "name": "《四季奇谭》", "entity_type": "book", "topic_name": "斯蒂芬金·恐怖·日常·人性"},
+  {"id": "seventh-realm", "name": "《第七境》", "entity_type": "game", "topic_name": "他人与自身的距离·边界·自我"},
+  {"id": "borges", "name": "博尔赫斯", "entity_type": "philosopher", "topic_name": "迷宫·时间·无限·镜像"},
+  {"id": "lacan-philosopher", "name": "拉康", "entity_type": "philosopher", "topic_name": "符号学·大他者·女性·镜像"},
+  {"id": "dostoevsky-philosopher", "name": "陀思妥耶夫斯基", "entity_type": "philosopher", "topic_name": "超人理论批判·存在·罪与罚"},
+  {"id": "hegel", "name": "黑格尔", "entity_type": "philosopher", "topic_name": "扬弃·精神现象学·主奴辩证法"},
+  {"id": "shakespeare", "name": "莎士比亚", "entity_type": "philosopher", "topic_name": "人性·权力·悲剧·语言"},
+  {"id": "zizek", "name": "齐泽克", "entity_type": "philosopher", "topic_name": "意识形态·享乐·电影·政治"},
+  {"id": "freud", "name": "弗洛伊德", "entity_type": "philosopher", "topic_name": "无意识·欲望·压抑·童年"},
+  {"id": "schopenhauer", "name": "叔本华", "entity_type": "philosopher", "topic_name": "意志·悲观·艺术·解脱"},
+  {"id": "jojo-stone-ocean", "name": "《JoJo 石之海》", "entity_type": "anime", "topic_name": "自由·命运·女性主角·抗争"},
+  {"id": "rock-lady", "name": "《摇滚乃淑女嗜好》", "entity_type": "anime", "topic_name": "摇滚·淑女·性别表演·反差"},
+  {"id": "dungeon-meshi", "name": "《迷宫饭》", "entity_type": "anime", "topic_name": "迷宫·食物·生存·陪伴"},
+  {"id": "chainsaw-man", "name": "《电锯人》", "entity_type": "anime", "topic_name": "恶魔·契约·身份·暴力"},
+  {"id": "ave-mujica", "name": "《Ave Mujica / MyGO!!!》", "entity_type": "anime", "topic_name": "乐队· youth ·身份·心理"},
+  {"id": "huntrix", "name": "《Huntrix / 猎魔女团》", "entity_type": "anime", "topic_name": "猎魔·女团·权力·抗争"}
 ]
