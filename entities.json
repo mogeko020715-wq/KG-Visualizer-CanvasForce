@@ -41,5 +41,8 @@
   {"id": "divine-comedy", "name": "《神曲》", "entity_type": "book", "topic_name": "地狱·炼狱·天堂·命运·神学"},
   {"id": "oedipus", "name": "《俄狄浦斯王》", "entity_type": "book", "topic_name": "命运·真相·自我认知·悲剧"},
   {"id": "underground", "name": "《地下室手记》", "entity_type": "book", "topic_name": "非理性·身份·反抗·存在焦虑"},
-  {"id": "count-monte-cristo", "name": "《基督山伯爵》", "entity_type": "book", "topic_name": "复仇·正义·等待·命运"}
+  {"id": "count-monte-cristo", "name": "《基督山伯爵》", "entity_type": "book", "topic_name": "复仇·正义·等待·命运"},
+  {"id": "dragon-lie-princess", "name": "《灾厄之龙与谎言公主》", "entity_type": "game", "topic_name": "女性主体性·谎言·社科启蒙"},
+  {"id": "dont-starve", "name": "《饥荒》", "entity_type": "game", "topic_name": "生存·边界·力量·海洋"},
+  {"id": "honcho-seven", "name": "《本所七大不可思议》", "entity_type": "game", "topic_name": "都市传说·真相·悬疑"}
 ]

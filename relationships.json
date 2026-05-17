@@ -49,5 +49,12 @@
   {"id": "r48", "source_entity_id": "underground", "target_entity_id": "boundary", "description": "地下室的物理边界=心理边界"},
   {"id": "r49", "source_entity_id": "count-monte-cristo", "target_entity_id": "power-structure", "description": "复仇=权力重新分配"},
   {"id": "r50", "source_entity_id": "count-monte-cristo", "target_entity_id": "truth-lies", "description": "等待14年揭露真相"},
-  {"id": "r51", "source_entity_id": "count-monte-cristo", "target_entity_id": "existentialism", "description": "不公命运下的反抗与选择"}
+  {"id": "r51", "source_entity_id": "count-monte-cristo", "target_entity_id": "existentialism", "description": "不公命运下的反抗与选择"},
+  {"id": "r52", "source_entity_id": "dragon-lie-princess", "target_entity_id": "gender-language", "description": "女性主体性·类现实环境"},
+  {"id": "r53", "source_entity_id": "dragon-lie-princess", "target_entity_id": "truth-lies", "description": "谎言公主=谎言与真相的缠绕"},
+  {"id": "r54", "source_entity_id": "dragon-lie-princess", "target_entity_id": "power-structure", "description": "社科启蒙·权力结构认知"},
+  {"id": "r55", "source_entity_id": "dont-starve", "target_entity_id": "boundary", "description": "生存边界·海洋恐惧"},
+  {"id": "r56", "source_entity_id": "dont-starve", "target_entity_id": "existentialism", "description": "生存焦虑=存在的前置"},
+  {"id": "r57", "source_entity_id": "honcho-seven", "target_entity_id": "truth-lies", "description": "都市传说·真相·悬疑"},
+  {"id": "r58", "source_entity_id": "honcho-seven", "target_entity_id": "urban-legend", "description": "本所七大不可思议 ↔ 都市传说解体中心"}
 ]
