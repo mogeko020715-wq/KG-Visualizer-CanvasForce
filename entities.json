@@ -37,5 +37,9 @@
   {"id": "hell-astrologer", "name": "《地狱占星师》", "entity_type": "movie", "topic_name": "命运·符号·解读"},
   {"id": "euphoria", "name": "《亢奋》", "entity_type": "movie", "topic_name": "青春·迷茫·存在"},
   {"id": "madame-bovary", "name": "《包法利夫人》", "entity_type": "movie", "topic_name": "欲望·幻灭·身份"},
-  {"id": "death-on-the-nile", "name": "《尼罗河上的惨案》", "entity_type": "movie", "topic_name": "悬疑·真相·推理"}
+  {"id": "death-on-the-nile", "name": "《尼罗河上的惨案》", "entity_type": "movie", "topic_name": "悬疑·真相·推理"},
+  {"id": "divine-comedy", "name": "《神曲》", "entity_type": "book", "topic_name": "地狱·炼狱·天堂·命运·神学"},
+  {"id": "oedipus", "name": "《俄狄浦斯王》", "entity_type": "book", "topic_name": "命运·真相·自我认知·悲剧"},
+  {"id": "underground", "name": "《地下室手记》", "entity_type": "book", "topic_name": "非理性·身份·反抗·存在焦虑"},
+  {"id": "count-monte-cristo", "name": "《基督山伯爵》", "entity_type": "book", "topic_name": "复仇·正义·等待·命运"}
 ]

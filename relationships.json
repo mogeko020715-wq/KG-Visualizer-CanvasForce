@@ -38,5 +38,16 @@
   {"id": "r37", "source_entity_id": "madame-bovary", "target_entity_id": "existentialism", "description": "欲望幻灭→身份追问"},
   {"id": "r38", "source_entity_id": "madame-bovary", "target_entity_id": "blue-jasmine", "description": "幻灭镜像：包法利夫人 vs 蓝色茉莉"},
   {"id": "r39", "source_entity_id": "death-on-the-nile", "target_entity_id": "truth-lies", "description": "悬疑·真相·推理"},
-  {"id": "r40", "source_entity_id": "euphoria", "target_entity_id": "existentialism", "description": "青春迷茫=存在主义前置"}
+  {"id": "r40", "source_entity_id": "euphoria", "target_entity_id": "existentialism", "description": "青春迷茫=存在主义前置"},
+  {"id": "r41", "source_entity_id": "divine-comedy", "target_entity_id": "existentialism", "description": "神学框架下的存在追问"},
+  {"id": "r42", "source_entity_id": "divine-comedy", "target_entity_id": "truth-lies", "description": "地狱审判=真相的终极形态"},
+  {"id": "r43", "source_entity_id": "divine-comedy", "target_entity_id": "hell-astrologer", "description": "地狱元素的跨时空呼应"},
+  {"id": "r44", "source_entity_id": "oedipus", "target_entity_id": "truth-lies", "description": "追真相导致自我毁灭"},
+  {"id": "r45", "source_entity_id": "oedipus", "target_entity_id": "existentialism", "description": "命运下的存在追问"},
+  {"id": "r46", "source_entity_id": "underground", "target_entity_id": "existentialism", "description": "我是一个有病的人=存在焦虑"},
+  {"id": "r47", "source_entity_id": "underground", "target_entity_id": "persona", "description": "地下室人拒绝社会面具"},
+  {"id": "r48", "source_entity_id": "underground", "target_entity_id": "boundary", "description": "地下室的物理边界=心理边界"},
+  {"id": "r49", "source_entity_id": "count-monte-cristo", "target_entity_id": "power-structure", "description": "复仇=权力重新分配"},
+  {"id": "r50", "source_entity_id": "count-monte-cristo", "target_entity_id": "truth-lies", "description": "等待14年揭露真相"},
+  {"id": "r51", "source_entity_id": "count-monte-cristo", "target_entity_id": "existentialism", "description": "不公命运下的反抗与选择"}
 ]
