@@ -269,16 +269,25 @@ function onNodeClick(node, event) {
     selectedNode = node;
     selectedLink = null; // Clear selected link when selecting a node
     
-    showDetails('节点详情', {
+    // 基础信息
+    const details = {
         'ID': node.id,
         '名称': node.name,
         '类型': node.entity_type,
         '主题': node.topic_name,
-        '属性': node.attributes ? JSON.stringify(node.attributes, null, 2) : '无',
-        '创建时间': node.created_at,
-        '更新时间': node.updated_at
-    });
+    };
     
+    // 将 attributes 平铺展开（简介、摘录、评分等）
+    if (node.attributes && typeof node.attributes === 'object') {
+        Object.entries(node.attributes).forEach(([key, value]) => {
+            details[key] = value;
+        });
+    }
+    
+    details['创建时间'] = node.created_at;
+    details['更新时间'] = node.updated_at;
+    
+    showDetails('节点详情', details);
     highlightConnections(node);
 }
 
@@ -376,7 +385,8 @@ function showDetails(title, details) {
     
     let html = '';
     for (const [key, value] of Object.entries(details)) {
-        html += `<p><strong>${key}:</strong><br/>${value || '无'}</p>`;
+        const displayValue = value || '无';
+        html += `<p><strong>${key}:</strong><br/><span style="white-space:pre-wrap;word-break:break-word;">${displayValue}</span></p>`;
     }
     
     detailsContent.innerHTML = html;
