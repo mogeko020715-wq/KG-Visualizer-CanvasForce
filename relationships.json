@@ -31,5 +31,12 @@
   {"id": "r30", "source_entity_id": "persona", "target_entity_id": "existentialism", "description": "ENTP/5w4探索可能性与系统"},
   {"id": "r31", "source_entity_id": "persona", "target_entity_id": "boundary", "description": "5号观察者+4号个人主义"},
   {"id": "r32", "source_entity_id": "fata-morgana", "target_entity_id": "boundary", "description": "时代之恶跨越边界"},
-  {"id": "r33", "source_entity_id": "umineko", "target_entity_id": "trauma-link", "description": "创伤催生谎言与真相"}
+  {"id": "r33", "source_entity_id": "umineko", "target_entity_id": "trauma-link", "description": "创伤催生谎言与真相"},
+  {"id": "r34", "source_entity_id": "inside-out", "target_entity_id": "persona", "description": "情绪人格化=人格面具"},
+  {"id": "r35", "source_entity_id": "revolutionary-girl-utena", "target_entity_id": "gender-language", "description": "性别·权力·自我革命"},
+  {"id": "r36", "source_entity_id": "revolutionary-girl-utena", "target_entity_id": "power-structure", "description": "自我革命对抗权力结构"},
+  {"id": "r37", "source_entity_id": "madame-bovary", "target_entity_id": "existentialism", "description": "欲望幻灭→身份追问"},
+  {"id": "r38", "source_entity_id": "madame-bovary", "target_entity_id": "blue-jasmine", "description": "幻灭镜像：包法利夫人 vs 蓝色茉莉"},
+  {"id": "r39", "source_entity_id": "death-on-the-nile", "target_entity_id": "truth-lies", "description": "悬疑·真相·推理"},
+  {"id": "r40", "source_entity_id": "euphoria", "target_entity_id": "existentialism", "description": "青春迷茫=存在主义前置"}
 ]

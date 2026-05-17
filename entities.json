@@ -29,5 +29,13 @@
   {"id": "gender-language", "name": "性别语言", "entity_type": "topic", "topic_name": "权力·历史语义·标签"},
   {"id": "free-market", "name": "自由市场", "entity_type": "topic", "topic_name": "体制内·零和博弈·生存策略"},
   {"id": "leisure-vs-boredom", "name": "闲暇vs无聊", "entity_type": "topic", "topic_name": "消费社会·注意力·被塑造"},
-  {"id": "persona", "name": "人格面具", "entity_type": "topic", "topic_name": "ENTP·5w4·探索·系统·艺术"}
+  {"id": "persona", "name": "人格面具", "entity_type": "topic", "topic_name": "ENTP·5w4·探索·系统·艺术"},
+  {"id": "my-permission", "name": "《我，许可》", "entity_type": "movie", "topic_name": "许可·边界·选择"},
+  {"id": "send-help", "name": "《请求救援 Send Help》", "entity_type": "movie", "topic_name": "求助·连接·存在"},
+  {"id": "inside-out", "name": "《头脑特工队》", "entity_type": "movie", "topic_name": "情绪·人格化·内心"},
+  {"id": "revolutionary-girl-utena", "name": "《少女革命》", "entity_type": "movie", "topic_name": "性别·权力·自我革命"},
+  {"id": "hell-astrologer", "name": "《地狱占星师》", "entity_type": "movie", "topic_name": "命运·符号·解读"},
+  {"id": "euphoria", "name": "《亢奋》", "entity_type": "movie", "topic_name": "青春·迷茫·存在"},
+  {"id": "madame-bovary", "name": "《包法利夫人》", "entity_type": "movie", "topic_name": "欲望·幻灭·身份"},
+  {"id": "death-on-the-nile", "name": "《尼罗河上的惨案》", "entity_type": "movie", "topic_name": "悬疑·真相·推理"}
 ]
