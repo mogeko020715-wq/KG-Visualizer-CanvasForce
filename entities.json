@@ -72,5 +72,18 @@
   {"id": "white-lotus", "name": "《白莲花度假村》", "entity_type": "series", "topic_name": "阶级·权力·vacation·虚伪"},
   {"id": "killing-eve", "name": "《Killing Eve》", "entity_type": "series", "topic_name": "追逐·欲望·身份·权力"},
   {"id": "undoing", "name": "《The Undoing》", "entity_type": "series", "topic_name": "真相·谎言·婚姻·阶级"},
-  {"id": "lessons-chemistry", "name": "《化学课》", "entity_type": "series", "topic_name": "科学·女性·50年代·权力"}
+  {"id": "lessons-chemistry", "name": "《化学课》", "entity_type": "series", "topic_name": "科学·女性·50年代·权力"},
+  {"id": "epics", "name": "《Epics》", "entity_type": "musical", "topic_name": "史诗·英雄·命运·叙事"},
+  {"id": "heathers", "name": "《Heathers》", "entity_type": "musical", "topic_name": "青春·暴力·社会讽刺·黑暗喜剧"},
+  {"id": "six", "name": "《Six》", "entity_type": "musical", "topic_name": "女性·历史·重构·权力"},
+  {"id": "phantom-opera", "name": "《歌剧魅影》", "entity_type": "musical", "topic_name": "爱·畸形·艺术·控制"},
+  {"id": "chicago", "name": "《Chicago》", "entity_type": "musical", "topic_name": "媒体·犯罪·女性·表演"},
+  {"id": "hamilton", "name": "《Hamilton》", "entity_type": "musical", "topic_name": "历史·革命·移民·叙事"},
+  {"id": "mozart-opera-rock", "name": "《Mozart Opera Rock》", "entity_type": "musical", "topic_name": "天才·反叛·摇滚·命运"},
+  {"id": "dream-red-chamber", "name": "《红楼梦》", "entity_type": "book", "topic_name": "绛珠仙草·顽石·命运·虚无"},
+  {"id": "wuthering-heights", "name": "《呼啸山庄》", "entity_type": "book", "topic_name": "克利夫·爱与复仇·野性·阶级"},
+  {"id": "narrow-gate", "name": "《窄门》", "entity_type": "book", "topic_name": "阿丽莎·信仰·爱冲突·禁欲"},
+  {"id": "bloodchild", "name": "《血孩子》", "entity_type": "book", "topic_name": "寄生·共生·权力·身体"},
+  {"id": "crime-punishment", "name": "《罪与罚》", "entity_type": "book", "topic_name": "拉夫·个人正义·社会冲突·超人理论"},
+  {"id": "four-seasons-tales", "name": "《四季奇谭》", "entity_type": "book", "topic_name": "斯蒂芬金·恐怖·日常·人性"}
 ]
