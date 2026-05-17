@@ -9,27 +9,27 @@
 <body>
     <div class="container">
         <div class="controls">
-            <h2>Upload Files</h2>
+            <h2>数据上传</h2>
             <div class="file-upload">
-                <label for="entities-file" class="btn">Entities</label>
+                <label for="entities-file" class="btn">实体文件</label>
                 <input type="file" id="entities-file" accept=".json">
-                <span class="file-name" id="entities-file-name">No file chosen</span>
+                <span class="file-name" id="entities-file-name">未选择文件</span>
             </div>
             <div class="file-upload">
-                <label for="relationships-file" class="btn">Relationships</label>
+                <label for="relationships-file" class="btn">关系文件</label>
                 <input type="file" id="relationships-file" accept=".json,.csv">
-                <span class="file-name" id="relationships-file-name">No file chosen</span>
+                <span class="file-name" id="relationships-file-name">未选择文件</span>
             </div>
-            <button id="generate-button" class="btn">Generate Graph</button>
+            <button id="generate-button" class="btn">生成图谱</button>
             <hr>
-            <h3>Graph Controls</h3>
-            <button id="subgraph-selector" class="btn">Subgraph Selector</button>
-            <button id="zoom-fit" class="btn">Zoom to Fit</button>
-            <button id="center-graph" class="btn">Center Graph</button>
-            <button id="reset-graph" class="btn">Reset Graph</button>
-            <button id="color-by-cluster" class="btn">Toggle Color by Cluster</button>
+            <h3>图谱控制</h3>
+            <button id="subgraph-selector" class="btn">子图选择器</button>
+            <button id="zoom-fit" class="btn">适应画布</button>
+            <button id="center-graph" class="btn">居中显示</button>
+            <button id="reset-graph" class="btn">重置图谱</button>
+            <button id="color-by-cluster" class="btn">切换聚类着色</button>
             <hr>
-            <button id="toggle-mode" class="btn">Toggle Dark/Light Mode</button>
+            <button id="toggle-mode" class="btn">切换明暗模式</button>
         </div>
         <div class="graph-area">
             <h1>麦的精神地图</h1>
@@ -38,28 +38,28 @@
         </div>
         <div class="highlight-panel" id="highlight-panel">
             <div class="highlight-panel-header">
-                <h3>Highlighted Items</h3>
+                <h3>高亮项目</h3>
                 <button class="highlight-panel-close" onclick="clearHighlight()">&times;</button>
             </div>
             <div class="highlight-panel-content">
                 <div class="details-section" id="details-section" style="display: none;">
                     <div class="details-section-header">
-                        <h4 id="details-title">Details</h4>
+                        <h4 id="details-title">详情</h4>
                         <button class="details-close-btn" onclick="hideDetailsSection()">&times;</button>
                     </div>
                     <div id="details-content" class="details-content"></div>
                 </div>
                 <div class="highlight-section">
                     <div class="highlight-section-header">
-                        <h4>Nodes (<span id="nodes-count">0</span>)</h4>
-                        <button class="save-json-btn" onclick="saveNodesToJson()" title="Save nodes to JSON">📄</button>
+                        <h4>节点 (<span id="nodes-count">0</span>)</h4>
+                        <button class="save-json-btn" onclick="saveNodesToJson()" title="导出节点为JSON">📄</button>
                     </div>
                     <div id="highlighted-nodes-list" class="highlight-list"></div>
                 </div>
                 <div class="highlight-section">
                     <div class="highlight-section-header">
-                        <h4>Links (<span id="links-count">0</span>)</h4>
-                        <button class="save-json-btn" onclick="saveLinksToJson()" title="Save links to JSON">📄</button>
+                        <h4>连线 (<span id="links-count">0</span>)</h4>
+                        <button class="save-json-btn" onclick="saveLinksToJson()" title="导出连线为JSON">📄</button>
                     </div>
                     <div id="highlighted-links-list" class="highlight-list"></div>
                 </div>

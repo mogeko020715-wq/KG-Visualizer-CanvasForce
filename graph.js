@@ -140,7 +140,7 @@ function initializeGraph() {
         
     } catch (error) {
         console.error('Error initializing graph:', error);
-        alert('Failed to initialize graph. Error: ' + error.message);
+        alert('初始化图谱失败: ' + error.message);
         return;
     }
 
@@ -176,7 +176,7 @@ function handleFileUpload(event, fileType) {
             console.log(`${fileType} loaded:`, parsedData);
         } catch (error) {
             console.error(`Error parsing ${fileType} file:`, error);
-            alert(`Error parsing ${fileType} file. Please ensure it's valid JSON.`);
+            alert(`解析 ${fileType} 文件出错，请确认是有效的 JSON 格式。`);
         }
     });
 }
@@ -188,7 +188,7 @@ function readFile(file, callback) {
     };
     reader.onerror = function() {
         console.error('Error reading file:', file.name);
-        alert('Error reading file: ' + file.name);
+        alert('读取文件出错: ' + file.name);
     };
     reader.readAsText(file);
 }
@@ -222,7 +222,7 @@ function processRelationships(relationshipsData) {
 
 function generateGraph() {
     if (!entitiesData || !relationshipsData) {
-        alert('Please upload both entities and relationships files');
+        alert('请同时上传实体文件和关系文件');
         return;
     }
 
@@ -260,7 +260,7 @@ function generateGraph() {
         
     } catch (error) {
         console.error('Error generating graph:', error);
-        alert('Error generating graph. Please check the console for details.');
+        alert('生成图谱出错，请检查控制台详情。');
     }
 }
 
@@ -268,14 +268,14 @@ function onNodeClick(node, event) {
     selectedNode = node;
     selectedLink = null; // Clear selected link when selecting a node
     
-    showDetails('Node Details', {
+    showDetails('节点详情', {
         'ID': node.id,
-        'Name': node.name,
-        'Type': node.entity_type,
-        'Topic': node.topic_name,
-        'Attributes': node.attributes ? JSON.stringify(node.attributes, null, 2) : 'None',
-        'Created': node.created_at,
-        'Updated': node.updated_at
+        '名称': node.name,
+        '类型': node.entity_type,
+        '主题': node.topic_name,
+        '属性': node.attributes ? JSON.stringify(node.attributes, null, 2) : '无',
+        '创建时间': node.created_at,
+        '更新时间': node.updated_at
     });
     
     highlightConnections(node);
@@ -285,17 +285,17 @@ function onLinkClick(link, event) {
     selectedLink = link;
     selectedNode = null; // Clear selected node when selecting a link
     
-    showDetails('Relationship Details', {
+    showDetails('连线详情', {
         'ID': link.id,
-        'Description': link.description,
-        'Weight': link.weight,
-        'Source': typeof link.source === 'object' ? link.source.id : link.source,
-        'Target': typeof link.target === 'object' ? link.target.id : link.target,
-        'Meta': link.meta,
-        'Document ID': link.document_id,
-        'Chunk ID': link.chunk_id,
-        'Created': link.created_at,
-        'Updated': link.updated_at
+        '描述': link.description,
+        '权重': link.weight,
+        '起点': typeof link.source === 'object' ? link.source.id : link.source,
+        '终点': typeof link.target === 'object' ? link.target.id : link.target,
+        '元数据': link.meta,
+        '文档ID': link.document_id,
+        '片段ID': link.chunk_id,
+        '创建时间': link.created_at,
+        '更新时间': link.updated_at
     });
     highlightLink(link);
 }
@@ -375,7 +375,7 @@ function showDetails(title, details) {
     
     let html = '';
     for (const [key, value] of Object.entries(details)) {
-        html += `<p><strong>${key}:</strong><br/>${value || 'N/A'}</p>`;
+        html += `<p><strong>${key}:</strong><br/>${value || '无'}</p>`;
     }
     
     detailsContent.innerHTML = html;
@@ -763,14 +763,14 @@ function focusOnNode(node) {
         graph.zoom(2, 1000);
         
         // Show node details
-        showDetails('Node Details', {
+        showDetails('节点详情', {
             'ID': node.id,
-            'Name': node.name,
-            'Type': node.entity_type,
-            'Topic': node.topic_name,
-            'Attributes': node.attributes ? JSON.stringify(node.attributes, null, 2) : 'None',
-            'Created': node.created_at,
-            'Updated': node.updated_at
+            '名称': node.name,
+            '类型': node.entity_type,
+            '主题': node.topic_name,
+            '属性': node.attributes ? JSON.stringify(node.attributes, null, 2) : '无',
+            '创建时间': node.created_at,
+            '更新时间': node.updated_at
         });
     }
 }
@@ -789,17 +789,17 @@ function focusOnLink(link) {
         }
         
         // Show link details
-        showDetails('Relationship Details', {
+        showDetails('连线详情', {
             'ID': link.id,
-            'Description': link.description,
-            'Weight': link.weight,
-            'Source': typeof link.source === 'object' ? link.source.id : link.source,
-            'Target': typeof link.target === 'object' ? link.target.id : link.target,
-            'Meta': link.meta ? JSON.stringify(link.meta, null, 2) : 'None',
-            'Document ID': link.document_id,
-            'Chunk ID': link.chunk_id,
-            'Created': link.created_at,
-            'Updated': link.updated_at
+            '描述': link.description,
+            '权重': link.weight,
+            '起点': typeof link.source === 'object' ? link.source.id : link.source,
+            '终点': typeof link.target === 'object' ? link.target.id : link.target,
+            '元数据': link.meta ? JSON.stringify(link.meta, null, 2) : '无',
+            '文档ID': link.document_id,
+            '片段ID': link.chunk_id,
+            '创建时间': link.created_at,
+            '更新时间': link.updated_at
         });
     }
 }
@@ -817,7 +817,7 @@ function hideHighlightPanel() {
 // JSON export functions
 function saveNodesToJson() {
     if (highlightedNodes.size === 0) {
-        alert('No nodes are currently highlighted');
+        alert('当前没有高亮节点');
         return;
     }
     
@@ -843,7 +843,7 @@ function saveNodesToJson() {
 
 function saveLinksToJson() {
     if (highlightedLinks.size === 0) {
-        alert('No links are currently highlighted');
+        alert('当前没有高亮连线');
         return;
     }
     
