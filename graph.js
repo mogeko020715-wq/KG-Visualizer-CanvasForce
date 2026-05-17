@@ -67,6 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('toggle-mode').onclick = toggleDarkMode;
     document.getElementById('color-by-cluster').onclick = toggleColorByCluster;
     document.getElementById('subgraph-selector').onclick = toggleSelectionMode;
+    
+    // Sidebar toggle binding
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    if (sidebarToggle) {
+        sidebarToggle.addEventListener('click', toggleSidebar);
+    }
 });
 
 function drawNodeWithLabel(node, ctx, globalScale) {
@@ -463,6 +469,21 @@ function toggleSelectionMode() {
         clearSelection();
         removeSelectionEvents();
     }
+}
+
+function toggleSidebar() {
+    const controls = document.querySelector('.controls');
+    const btn = document.getElementById('sidebar-toggle');
+    if (!controls || !btn) return;
+    
+    const collapsed = controls.classList.toggle('collapsed');
+    btn.textContent = collapsed ? '▶' : '◀';
+    btn.title = collapsed ? '展开侧栏' : '收起侧栏';
+    
+    // Trigger resize after CSS transition completes
+    setTimeout(() => {
+        window.dispatchEvent(new Event('resize'));
+    }, 400);
 }
 
 function setupSelectionEvents() {

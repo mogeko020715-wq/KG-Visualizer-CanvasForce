@@ -9,27 +9,30 @@
 <body>
     <div class="container">
         <div class="controls">
-            <h2>数据上传</h2>
-            <div class="file-upload">
-                <label for="entities-file" class="btn">实体文件</label>
-                <input type="file" id="entities-file" accept=".json">
-                <span class="file-name" id="entities-file-name">未选择文件</span>
+            <button class="controls-toggle" id="sidebar-toggle" title="收起/展开侧栏">◀</button>
+            <div class="controls-content">
+                <h2>数据上传</h2>
+                <div class="file-upload">
+                    <label for="entities-file" class="btn">实体文件</label>
+                    <input type="file" id="entities-file" accept=".json">
+                    <span class="file-name" id="entities-file-name">未选择文件</span>
+                </div>
+                <div class="file-upload">
+                    <label for="relationships-file" class="btn">关系文件</label>
+                    <input type="file" id="relationships-file" accept=".json,.csv">
+                    <span class="file-name" id="relationships-file-name">未选择文件</span>
+                </div>
+                <button id="generate-button" class="btn">生成图谱</button>
+                <hr>
+                <h3>图谱控制</h3>
+                <button id="subgraph-selector" class="btn">子图选择器</button>
+                <button id="zoom-fit" class="btn">适应画布</button>
+                <button id="center-graph" class="btn">居中显示</button>
+                <button id="reset-graph" class="btn">重置图谱</button>
+                <button id="color-by-cluster" class="btn">切换聚类着色</button>
+                <hr>
+                <button id="toggle-mode" class="btn">切换明暗模式</button>
             </div>
-            <div class="file-upload">
-                <label for="relationships-file" class="btn">关系文件</label>
-                <input type="file" id="relationships-file" accept=".json,.csv">
-                <span class="file-name" id="relationships-file-name">未选择文件</span>
-            </div>
-            <button id="generate-button" class="btn">生成图谱</button>
-            <hr>
-            <h3>图谱控制</h3>
-            <button id="subgraph-selector" class="btn">子图选择器</button>
-            <button id="zoom-fit" class="btn">适应画布</button>
-            <button id="center-graph" class="btn">居中显示</button>
-            <button id="reset-graph" class="btn">重置图谱</button>
-            <button id="color-by-cluster" class="btn">切换聚类着色</button>
-            <hr>
-            <button id="toggle-mode" class="btn">切换明暗模式</button>
         </div>
         <div class="graph-area">
             <h1>麦的精神地图</h1>

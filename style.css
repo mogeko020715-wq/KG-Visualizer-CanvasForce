@@ -78,6 +78,41 @@ h1 {
     background: var(--base-variant);
     border-right: 1px solid var(--panel-border);
     overflow-y: auto;
+    transition: flex 0.35s cubic-bezier(0.4,0,0.2,1), padding 0.35s cubic-bezier(0.4,0,0.2,1);
+    position: relative;
+}
+.controls.collapsed {
+    flex: 0 0 40px;
+    padding: 1em 0;
+    overflow: hidden;
+    min-width: 40px;
+}
+.controls.collapsed .controls-content {
+    display: none;
+}
+.controls-toggle {
+    width: 100%;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: background 0.2s, transform 0.35s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+}
+.controls-toggle:hover {
+    background: var(--button-hover-color);
+}
+.controls.collapsed .controls-toggle {
+    margin-bottom: 0;
+    transform: rotate(180deg);
 }
 .controls h2 {
     text-align: center;
