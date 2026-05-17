@@ -44,5 +44,14 @@
   {"id": "count-monte-cristo", "name": "《基督山伯爵》", "entity_type": "book", "topic_name": "复仇·正义·等待·命运"},
   {"id": "dragon-lie-princess", "name": "《灾厄之龙与谎言公主》", "entity_type": "game", "topic_name": "女性主体性·谎言·社科启蒙"},
   {"id": "dont-starve", "name": "《饥荒》", "entity_type": "game", "topic_name": "生存·边界·力量·海洋"},
-  {"id": "honcho-seven", "name": "《本所七大不可思议》", "entity_type": "game", "topic_name": "都市传说·真相·悬疑"}
+  {"id": "honcho-seven", "name": "《本所七大不可思议》", "entity_type": "game", "topic_name": "都市传说·真相·悬疑"},
+  {"id": "why-we-defend", "name": "《为什么我们总是在防御》", "entity_type": "book", "topic_name": "心理学·防御机制·自我保护"},
+  {"id": "lacan-analysis", "name": "拉康的精神世界分析", "entity_type": "insight", "topic_name": "镜像·父权·女性·疯狂"},
+  {"id": "xie-daoyun", "name": "谢道韫/五斗米教/陶渊明", "entity_type": "insight", "topic_name": "历史·女性·宗教·隐逸"},
+  {"id": "walking-marriage", "name": "和父母讨论走婚制/父权遗传优势/社会资源倾斜/留后数量", "entity_type": "insight", "topic_name": "父权·婚姻·资源·性别"},
+  {"id": "enneagram-defense", "name": "九型人格各自防御机制：内化/隔离", "entity_type": "insight", "topic_name": "人格心理学·防御机制"},
+  {"id": "capitalism-nationalism", "name": "资本主义发达国家/金融泡沫/极端民族主义/年轻人冲击", "entity_type": "insight", "topic_name": "资本主义·民族主义·历史·青年"},
+  {"id": "matriarchal-society", "name": "蚂蚁蜜蜂母系社会", "entity_type": "insight", "topic_name": "母系社会·生物社会学·性别结构"},
+  {"id": "hill-defense", "name": "山丘防御机制博客：投射/内摄", "entity_type": "insight", "topic_name": "心理学·防御机制"},
+  {"id": "capitalism-meritocracy-narcissism", "name": "资本&功绩主义&自恋生成器", "entity_type": "insight", "topic_name": "资本主义·功绩主义·自恋·批判"}
 ]
