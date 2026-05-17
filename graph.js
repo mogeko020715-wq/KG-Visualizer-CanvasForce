@@ -37,6 +37,22 @@ document.addEventListener('DOMContentLoaded', function() {
     clusterMode = localStorage.getItem('clusterColorMode') || 'enabled';
 
     initializeGraph();
+    
+    // Auto-load data from JSON files
+    Promise.all([
+        fetch('entities.json').then(r => r.json()),
+        fetch('relationships.json').then(r => r.json())
+    ]).then(([entities, relationships]) => {
+        entitiesData = entities;
+        relationshipsData = relationships;
+        document.getElementById('entities-file-name').textContent = 'entities.json (auto-loaded)';
+        document.getElementById('relationships-file-name').textContent = 'relationships.json (auto-loaded)';
+        generateGraph();
+    }).catch(err => {
+        console.error('Failed to auto-load data:', err);
+        // Fallback: keep file upload UI working
+    });
+    
     const entitiesFile = document.getElementById('entities-file');
     const relationshipsFile = document.getElementById('relationships-file');
     const generateButton = document.getElementById('generate-button');
