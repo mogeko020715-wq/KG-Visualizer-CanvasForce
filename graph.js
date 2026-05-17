@@ -67,12 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('toggle-mode').onclick = toggleDarkMode;
     document.getElementById('color-by-cluster').onclick = toggleColorByCluster;
     document.getElementById('subgraph-selector').onclick = toggleSelectionMode;
-    
-    // Sidebar toggle binding
-    const sidebarToggle = document.getElementById('sidebar-toggle');
-    if (sidebarToggle) {
-        sidebarToggle.addEventListener('click', toggleSidebar);
-    }
+    // toggleSidebar is bound via onclick in HTML
 });
 
 function drawNodeWithLabel(node, ctx, globalScale) {
